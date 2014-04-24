@@ -1,37 +1,85 @@
 <html>
-<head>
-	<title>My page</title>
-	<style type="text/css">
-		body {
-			background:url("dragon.png");
-			color: black;
-		}
-	</style>
-</head>
-<body > 
-	<h1 style="position:absolute; TOP:45px; LEFT:150px; WIDTH:300px; HEIGHT:300px">
-		Hello everybody!
-	</h1>
-	<h2 style="position:absolute; TOP:100px; LEFT:120px; WIDTH:400px; HEIGHT:400px">
-		My name is Marti and I like turtles and cactuses <strong>a lot! &lt;3 &lt;3 &lt;3</strong>
-	</h2>
-	<h3 style="position:absolute; TOP:170px; LEFT:140px; WIDTH:300px; HEIGHT:400px">
-		If you want to understand more about me, click the buttons below!
-	</h3>
-	<a href="bg.html">
-		<marquee>BG</marquee>
-	</a>
-	<a href="https://www.facebook.com/cactusmactus.okay?ref=tn_tnmn">
-		<img style="position:absolute; TOP:580px; LEFT:90px; WIDTH:40px; HEIGHT:40px"src="facebook.png">
-	</a>
-	<a href="https://twitter.com/MaartinaK">
-		<img style="position:absolute; TOP:580px; LEFT:140px; WIDTH:40px; HEIGHT:40px"src="twitter.jpg">
-	</a>
-	<a href="https://www.linkedin.com/profile/view?id=166058336&trk=nav_responsive_tab_profile">
-		<img style="position:absolute; TOP:580px; LEFT:190px; WIDTH:40px; HEIGHT:40px"src="linkedin.jpg">
-	</a>
-	<a href="https://plus.google.com/104738058890161713994/posts">
-		<img style="position:absolute; TOP:580px; LEFT:240px; WIDTH:40px; HEIGHT:40px"src="google.jpg">
-	</a>
+	<head>
+		<title>My page</title>
+		<style type="text/css">
+			body {
+				background: url("dragon.png");
+				color: black;
+			}
+
+			.title {
+				position: absolute;
+				top: 45px;
+				left: 150px;
+				width: 300px;
+				height: 300px;
+			}
+
+			.about-me {
+				position: absolute;
+				top: 100px;
+				left: 120px;
+				width: 400px;
+				height: 400px;
+			}
+
+			.call-of-action {
+				position: absolute;
+				top: 170px;
+				left: 140px;
+				width: 300px;
+				height: 400px;
+			}
+
+			#footer {
+				position: absolute;
+				bottom: 20px;
+				left: 90px;
+			}
+
+			#footer .icon {
+				text-decoration: none;
+			}
+
+			#footer .icon img {
+				width: 40px;
+				height: 40px;
+			}
+
+		</style>
+	</head>
+
+	<body > 
+		<h1 class="title">
+			Hello everybody!
+		</h1>
+		<h2 class="about-me">
+			My name is Marti and I like turtles and cactuses <strong>a lot! &lt;3 &lt;3 &lt;3</strong>
+		</h2>
+		<h3 class="call-of-action">
+			If you want to understand more about me, click the buttons below!
+		</h3>
+		
+		<a href="bg.html">
+			<marquee >BG</marquee>
+		</a>
+
+		<div id="footer">
+			<a class="icon" href="https://www.facebook.com/cactusmactus.okay?ref=tn_tnmn">
+				<img src="facebook.png">
+			</a>
+			
+			<a class="icon"href="https://twitter.com/MaartinaK">
+				<img src="twitter.jpg">
+			</a>
+			
+			<a class="icon"href="https://www.linkedin.com/profile/view?id=166058336&trk=nav_responsive_tab_profile">
+				<img src="linkedin.jpg">
+			</a>
+			
+			<a class="icon"href="https://plus.google.com/104738058890161713994/posts">
+				<img src="google.jpg">
+			</a>
+		</div>
 	</body>
 </html>
