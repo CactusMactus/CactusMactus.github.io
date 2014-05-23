@@ -1,19 +1,21 @@
 body {
-	background: url("../images/backgroundpingu.png");
+	background: url("../images/F-Stop-Spot-Rusted-Metal-01 - Copy.jpg");
 	background: cover;
 	color: black;
 }
 
-.language {
-	background: url("../images/bee.jpg");
-	width: 45px;
-	height: 40px;
-	background-size: 45px 40px;
+.languagebg {
 	display:block;
 	position: absolute;
 	top:158px;
 	right:90px;
+}
 
+.languageen {
+	b	display:block;
+	position: absolute;
+	top:158px;
+	right:90px;
 }
 
 .title {
@@ -26,18 +28,18 @@ body {
 }
 
 .about-me {
-	position: absolute;
-	top: 100px;
-	left: 120px;
-	width: 400px;
-	height: 400px;
+	position: fixed;
+	top: 40px;
+	left: 55px;
+	width: 20px;
+	height: 20px;
 	font-family: cursive;
 }
 
-.call-of-action {
-	position: absolute;
-	top: 190px;
-	left: 140px;
+.call-to-action {
+	position:fixed;
+	bottom: -275px;
+	left: 73px;
 	width: 300px;
 	height: 400px;
 	font-family: cursive;
@@ -54,6 +56,6 @@ body {
 }
 
 #footer .icon img {
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 }
