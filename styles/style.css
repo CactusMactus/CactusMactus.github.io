@@ -1,0 +1,59 @@
+body {
+	background: url("../images/backgroundpingu.png");
+	background: cover;
+	color: black;
+}
+
+.language {
+	background: url("../images/bee.jpg");
+	width: 45px;
+	height: 40px;
+	background-size: 45px 40px;
+	display:block;
+	position: absolute;
+	top:158px;
+	right:90px;
+
+}
+
+.title {
+	position: absolute;
+	top: 45px;
+	left: 150px;
+	width: 300px;
+	height: 300px;
+	font-family: cursive;
+}
+
+.about-me {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 400px;
+	height: 400px;
+	font-family: cursive;
+}
+
+.call-of-action {
+	position: absolute;
+	top: 190px;
+	left: 140px;
+	width: 300px;
+	height: 400px;
+	font-family: cursive;
+}
+
+#footer {
+	position: absolute;
+	bottom: 20px;
+	left: 90px;
+}
+
+#footer .icon {
+	text-decoration: none;
+}
+
+#footer .icon img {
+	width: 40px;
+	height: 40px;
+}
