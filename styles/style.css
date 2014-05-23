@@ -1,6 +1,6 @@
 body {
 	background: url("../images/F-Stop-Spot-Rusted-Metal-01 - Copy.jpg");
-	background: cover;
+	background-size: cover;
 	color: black;
 }
 
