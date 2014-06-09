@@ -12,7 +12,7 @@ body {
 }
 
 .languageen {
-	b	display:block;
+	display:block;
 	position: absolute;
 	top:158px;
 	right:90px;
