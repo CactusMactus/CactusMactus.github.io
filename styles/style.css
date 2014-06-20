@@ -54,15 +54,18 @@ body {
 
 #footer {
 	position: absolute;
+	width: 50%;
 	bottom: 40px;
 	left: 190px;
 }
 
 #footer .icon {
+	float: left;
+	width: 20%;
 	text-decoration: none;
+
 }
 
 #footer .icon img {
-	width: 80px;
-	height: 80px;
+	width: 100%;
 }
